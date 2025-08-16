@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Torekhan NFC Визитка</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+      color: #fff;
+      text-align: center;
+    }
+    .container {
+      max-width: 500px;
+      margin: auto;
+      padding: 20px;
+    }
+    .avatar {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      border: 3px solid #00e5ff;
+      margin-bottom: 20px;
+      box-shadow: 0 0 20px #00e5ff;
+    }
+    h1 {
+      font-size: 2rem;
+      margin-bottom: 10px;
+      text-shadow: 0 0 10px #00e5ff, 0 0 20px #9d00ff;
+    }
+    p {
+      font-size: 1.1rem;
+      margin-bottom: 20px;
+      line-height: 1.5;
+    }
+    .social-links {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      margin-bottom: 30px;
+    }
+    .social-links a {
+      display: inline-flex;
+      align-items: center;
+      justify-content: flex-start;
+      margin: 5px 0;
+      color: #00e5ff;
+      text-decoration: none;
+      font-size: 1.05rem;
+      transition: all 0.3s ease;
+      padding: 10px 15px;
+      border-radius: 10px;
+      background: rgba(0, 229, 255, 0.08);
+      border: 1px solid #00e5ff;
+      width: 100%;
+      cursor: pointer;
+      touch-action: manipulation;
+    }
+    .social-links a:hover {
+      background: rgba(0, 229, 255, 0.2);
+      box-shadow: 0 0 10px #00e5ff;
+    }
+    .social-links img {
+      width: 25px;
+      height: 25px;
+      margin-right: 12px;
+    }
+    .about {
+      margin-top: 20px;
+      padding: 15px;
+      text-align: left;
+      border-top: 1px solid rgba(255,255,255,0.3);
+    }
+    .advantages {
+      text-align: left;
+      margin-top: 30px;
+      padding: 15px;
+      border-top: 1px solid rgba(255,255,255,0.3);
+    }
+    .advantages h2 {
+      font-size: 1.5rem;
+      margin-bottom: 15px;
+      color: #00e5ff;
+      text-shadow: 0 0 8px #00e5ff;
+    }
+    .advantages ul {
+      list-style: none;
+      padding: 0;
+    }
+    .advantages li {
+      margin: 10px 0;
+      font-size: 1rem;
+      line-height: 1.4;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <!-- Аватарка -->
+    <img src="https://i.ibb.co/tjp4RkH/avatar.jpg" alt="Avatar" class="avatar">
+
+    <!-- Имя -->
+    <h1>Төрехан</h1>
+    <p>Моя персональная NFC-визитка. Быстро, удобно и современно 🚀</p>
+
+    <!-- Ссылки -->
+    <div class="social-links">
+      <a href="https://instagram.com/tore_krg" target="_blank">
+        <img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" alt="Instagram">
+        Instagram @tore_krg
+      </a>
+      <a href="https://t.me/quantum667" target="_blank">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/8/82/Telegram_logo.svg" alt="Telegram">
+        Telegram @quantum667
+      </a>
+      <a href="https://wa.me/message/WIU2BGEBDKSNN1" target="_blank">
+        <img src="https://cdn-icons-png.flaticon.com/512/733/733585.png" alt="WhatsApp">
+        WhatsApp
+      </a>
+      <a href="mailto:ongarbayevtorekhan@gmail.com">
+        <img src="https://cdn-icons-png.flaticon.com/512/732/732200.png" alt="Email">
+        Email
+      </a>
+      <a href="tel:+77075185183">
+        <img src="https://cdn-icons-png.flaticon.com/512/597/597177.png" alt="Phone">
+        Позвонить
+      </a>
+    </div>
+
+    <!-- ОБО МНЕ -->
+    <div class="about">
+      <h2>Обо мне</h2>
+      <p>
+        Я занимаюсь развитием и продвижением современных технологий в сфере <b>цифровых визиток и NFC-решений</b>.<br><br>
+        Моя цель -- сделать обмен контактами простым, стильным и инновационным.<br><br>
+        Увлекаюсь спортом, бегом, изучаю новые технологии и всегда открыт для интересных проектов и сотрудничества.
+      </p>
+    </div>
+
+    <!-- Преимущества NFC-визитки -->
+    <div class="advantages">
+      <h2>Почему NFC-визитка лучше обычной?</h2>
+      <ul>
+        <li>📲 Мгновенный обмен контактами -- достаточно поднести к телефону, и вся информация сразу открывается.</li>
+        <li>♻️ Экономия и экология -- не нужно печатать сотни бумажных визиток, которые всё равно теряются.</li>
+        <li>🔄 Легко обновлять -- поменял номер, соцсеть или работу -- не нужно печатать новые, просто обнови онлайн.</li>
+        <li>💼 Современно и стильно -- выделишься среди тех, кто до сих пор раздаёт бумажки.</li>
+        <li>🌍 Все данные в одном месте -- номер, сайт, Instagram, Telegram, WhatsApp, даже карта проезда.</li>
+        <li>🔒 Безопасно -- ты сам решаешь, какие контакты показывать.</li>
+        <li>🚀 Работает везде -- подходит для Android и iPhone, без дополнительных приложений.</li>
+      </ul>
+    </div>
+  </div>
+</body>
+</html>
